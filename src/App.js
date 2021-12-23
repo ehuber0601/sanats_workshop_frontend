@@ -12,7 +12,7 @@ import { Route, Routes, Link, useNavigate } from "react-router-dom"
 
 function App() {
   const navigate = useNavigate()
-  const url = "http://santas-workshop-backend.herokuapp.com/products/"
+  const url = "https://santas-workshop-backend.herokuapp.com/products/"
 
   const [products, setProducts] = useState([])
 

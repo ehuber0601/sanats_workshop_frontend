@@ -11,7 +11,7 @@ const SingleProduct = ({products, edit, deleteProduct}) => {
     <img src={product?.url} alt={product?.name}/>
     <div className="descrpition">
     <h2>{product?.name}</h2>
-    <p><i>{product?.price}</i></p>
+    <p>${product?.price}</p>
     <p>{product?.category}</p>
     <p>{product?.description}</p>
     </div>
