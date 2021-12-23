@@ -5,9 +5,29 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: url("https://st.depositphotos.com/1780362/1372/v/950/depositphotos_13724477-stock-illustration-snowflakes-background.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+nav.navbar {
+  background-color: rgb(8, 8, 92)
+}
+
+a {
+  color: white;
+}
+
+span.navbar-toggler-icon {
+  background-color: whitesmoke;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@media only screen and (max-width: 900px) {
+  img {
+    width: 80%;
+  }
 }
