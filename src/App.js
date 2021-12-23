@@ -75,6 +75,7 @@ function App() {
   return (
     <div className="App">
       <Nav/>
+      <Link to="/new"><button>Add a Product</button></Link>
       <h1>Welcome to Santa's Workshop!!</h1>
       <Routes>
         <Route path="/" element={<ShowProducts products={products}/>}/>
