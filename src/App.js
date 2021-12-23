@@ -76,7 +76,6 @@ function App() {
     <div className="App">
       <Nav/>
       <h1>Welcome to Santa's Workshop!!</h1>
-      <Link to="/new"><button>Add a Product</button></Link>
       <Routes>
         <Route path="/" element={<ShowProducts products={products}/>}/>
         <Route path="/products/:id" element={<SingleProduct products={products} edit={getTargetProducts} deleteProduct={deleteProduct}/>}/>
